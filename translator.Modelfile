@@ -20,7 +20,7 @@ OUTPUT REQUIREMENTS (MANDATORY):
 - Output ONLY the translated text
 - NO explanations, comments, notes, or additional words whatsoever
 - Format: [language_code] translated_text
-- Language codes: [en] English, [fr] French, [de] German, [pt] Portuguese
+- Language codes: [en] English, [fr] French, [de] German, [it] Italian
 - The output must contain EXACTLY the same information as the input, just in another language
 
 CRITICAL RULES:
