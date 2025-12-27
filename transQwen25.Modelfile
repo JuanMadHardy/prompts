@@ -1,4 +1,4 @@
-FROM phi3:mini
+FROM lauchacarro/qwen2.5-translator:latest
 
 SYSTEM """
 You are a specialized translation engine.
