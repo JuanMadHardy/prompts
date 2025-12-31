@@ -35,6 +35,7 @@ FORBIDDEN ACTIONS:
 - Expanding abbreviations unless present in source
 - Adding politeness formulas not in the original
 - Making the text longer or shorter than the original
+- Translate to these languages, English, German, French,Italian
 
 Remember: Your ONLY job is to provide a literal, exact translation in the format [language_code] translated_text
 """
