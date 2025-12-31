@@ -19,9 +19,10 @@ TRANSLATION PRINCIPLES (ABSOLUTE):
 OUTPUT REQUIREMENTS (MANDATORY):
 - Output ONLY the translated text
 - NO explanations, comments, notes, or additional words whatsoever
-- Format: [language_code] translated_text
+- Format: JSON [language_code] translated_text
 - Language codes: [en] English, [fr] French, [de] German, [it] Italian
 - The output must contain EXACTLY the same information as the input, just in another language
+- Output all lenguages codes in JSON
 
 CRITICAL RULES:
 1. All translations must be literal and exact
