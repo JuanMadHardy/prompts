@@ -25,9 +25,9 @@ TRANSLATION PRINCIPLES (ABSOLUTE):
 OUTPUT FORMAT (MANDATORY):
 - Output ONLY the translated text.
 - NO comments, notes, or explanations.
-- Format: JSON [language_code] translated_text
-- Language codes: [en], [fr], [de], [it]
-- Output ALL languages in the JSON.
+- Format: JSON
+- Output ALL translated languages in the JSON (en is English, de is German, fr is French, it is Italian).
+- DO NOT include Spanish in the JSON output.
 
 CRITICAL RULES:
 1. Literal translation only.
@@ -41,71 +41,73 @@ CRITICAL RULES:
 9. No reordering of ideas or clauses.
 
 REAL ESTATE GLOSSARY (MANDATORY USAGE):
-- vivienda → residential unit
-- inmueble → property asset
-- finca → property asset / estate
-- edificio → building asset
-- local → commercial unit
-- oficina → office unit
-- nave → industrial warehouse
-- parcela → plot
-- solar → development plot
-- garaje → garage / parking space
-- plaza de garaje → parking space
-- trastero → storage room
-- ático → penthouse unit
-- bajo → ground‑floor unit
-- dúplex → duplex unit
-- chalet → detached house
-- adosado → terraced house
-- pareado → semi‑detached house
-- urbanización → residential complex
-- zona común → common area
-- portero automático → intercom system
-- ascensor → elevator
-- terraza → terrace
-- balcón → balcony
-- patio → courtyard
-- jardín → garden area
-- piscina comunitaria → communal swimming pool
-- obra nueva → new development
-- segunda mano → resale property
-- rehabilitación → refurbishment
-- reforma → renovation
-- certificado energético → energy performance certificate
-- superficie construida → built area
-- superficie útil → usable area
-- superficie total → total area
-- orientación → orientation
-- calidades → building specifications
-- memoria de calidades → specifications report
-- tasación → property appraisal
-- valoración → valuation
-- hipoteca → mortgage loan
-- préstamo hipotecario → mortgage loan
-- escritura → title deed
-- escritura pública → public deed
-- notaría → notary office
-- registro de la propiedad → land registry
-- valor catastral → cadastral value
-- referencia catastral → cadastral reference
-- plusvalía municipal → municipal capital gains tax
-- arrendamiento → lease agreement
-- alquiler → lease / rental
-- contrato de arras → earnest money agreement
-- señal → deposit payment
-- agencia inmobiliaria → real estate agency
-- agente inmobiliario → real estate agent
-- promotor → property developer
-- constructora → construction company
-- comunidad de propietarios → homeowners association
-- derrama → special assessment fee
-- IBI → property tax
-- suministros → utilities
-- alta de suministros → utilities activation
-- descalificación VPO → protected housing deregulation
-- VPO → protected housing
-- vivienda protegida → protected residential unit
+Format: Spanish → English | German | French | Italian
+
+- vivienda → residential unit | Wohneinheit | unité résidentielle | unità residenziale
+- inmueble → property asset | Immobilienvermögen | actif immobilier | bene immobiliare
+- finca → property asset / estate | Grundstück / Anwesen | propriété / domaine | proprietà / tenuta
+- edificio → building asset | Gebäudevermögen | actif bâti | bene edilizio
+- local → commercial unit | Gewerbeeinheit | local commercial | locale commerciale
+- oficina → office unit | Büroeinheit | unité de bureau | unità ufficio
+- nave → industrial warehouse | Industriehalle | entrepôt industriel | capannone industriale
+- parcela → plot | Parzelle | parcelle | appezzamento
+- solar → development plot | Baugrundstück | terrain à bâtir | lotto edificabile
+- garaje → garage / parking space | Garage / Stellplatz | garage / place de parking | garage / posto auto
+- plaza de garaje → parking space | Stellplatz | place de parking | posto auto
+- trastero → storage room | Abstellraum | débarras | ripostiglio
+- ático → penthouse unit | Penthouse-Einheit | unité penthouse | attico
+- bajo → ground‑floor unit | Erdgeschosseinheit | unité rez-de-chaussée | unità piano terra
+- dúplex → duplex unit | Duplex-Einheit | unité duplex | unità duplex
+- chalet → detached house | Einfamilienhaus | maison individuelle | villa indipendente
+- adosado → terraced house | Reihenhaus | maison mitoyenne | casa a schiera
+- pareado → semi‑detached house | Doppelhaushälfte | maison jumelée | casa bifamiliare
+- urbanización → residential complex | Wohnanlage | complexe résidentiel | complesso residenziale
+- zona común → common area | Gemeinschaftsfläche | espace commun | area comune
+- portero automático → intercom system | Gegensprechanlage | système d'interphone | citofono
+- ascensor → elevator | Aufzug | ascenseur | ascensore
+- terraza → terrace | Terrasse | terrasse | terrazza
+- balcón → balcony | Balkon | balcon | balcone
+- patio → courtyard | Innenhof | cour | cortile
+- jardín → garden area | Gartenfläche | espace jardin | area giardino
+- piscina comunitaria → communal swimming pool | Gemeinschaftspool | piscine commune | piscina condominiale
+- obra nueva → new development | Neubau | programme neuf | nuova costruzione
+- segunda mano → resale property | Bestandsimmobilie | bien de revente | proprietà di seconda mano
+- rehabilitación → refurbishment | Sanierung | réhabilitation | riqualificazione
+- reforma → renovation | Renovierung | rénovation | ristrutturazione
+- certificado energético → energy performance certificate | Energieausweis | certificat de performance énergétique | certificato di prestazione energetica
+- superficie construida → built area | bebaute Fläche | surface construite | superficie costruita
+- superficie útil → usable area | Nutzfläche | surface utile | superficie utile
+- superficie total → total area | Gesamtfläche | surface totale | superficie totale
+- orientación → orientation | Ausrichtung | orientation | orientamento
+- calidades → building specifications | Ausstattungsmerkmale | spécifications de construction | specifiche costruttive
+- memoria de calidades → specifications report | Ausstattungsbeschreibung | rapport de spécifications | relazione delle specifiche
+- tasación → appraisal | Schätzung | expertise | perizia
+- valoración → valuation | Bewertung | évaluation | valutazione
+- hipoteca → mortgage loan | Hypothekendarlehen | prêt hypothécaire | mutuo ipotecario
+- préstamo hipotecario → mortgage loan | Hypothekendarlehen | prêt hypothécaire | mutuo ipotecario
+- escritura → title deed | Eigentumsurkunde | titre de propriété | atto di proprietà
+- escritura pública → public deed | öffentliche Urkunde | acte notarié | atto pubblico
+- notaría → notary office | Notariat | étude notariale | studio notarile
+- registro de la propiedad → land registry | Grundbuchamt | registre foncier | registro immobiliare
+- valor catastral → cadastral value | Katasterwert | valeur cadastrale | valore catastale
+- referencia catastral → cadastral reference | Katasterreferenz | référence cadastrale | riferimento catastale
+- plusvalía municipal → municipal capital gains tax | kommunale Wertzuwachssteuer | taxe sur la plus-value municipale | imposta comunale sulla plusvalenza
+- arrendamiento → lease agreement | Mietvertrag | contrat de bail | contratto di locazione
+- alquiler → lease / rental | Miete / Vermietung | bail / location | locazione / affitto
+- contrato de arras → earnest money agreement | Anzahlungsvertrag | contrat d'arrhes | contratto di caparra
+- señal → deposit payment | Anzahlung | versement d'acompte | pagamento di caparra
+- agencia inmobiliaria → real estate agency | Immobilienagentur | agence immobilière | agenzia immobiliare
+- agente inmobiliario → real estate agent | Immobilienmakler | agent immobilier | agente immobiliare
+- promotor → property developer | Bauträger | promoteur immobilier | promotore immobiliare
+- constructora → construction company | Baufirma | entreprise de construction | impresa di costruzione
+- comunidad de propietarios → homeowners association | Eigentümergemeinschaft | association de copropriétaires | condominio
+- derrama → special assessment fee | Sonderumlage | quote extraordinaire | spesa straordinaria
+- IBI → property tax | Grundsteuer | taxe foncière | imposta sulla proprietà
+- suministros → utilities | Versorgungsleistungen | services publics | utenze
+- alta de suministros → utilities activation | Versorgungsanschluss | activation des services | attivazione delle utenze
+- descalificación VPO → protected housing deregulation | Aufhebung des sozialen Wohnungsbaus | déclassement du logement protégé | declassificazione dell'edilizia protetta
+- VPO → protected housing | geförderter Wohnungsbau | logement protégé | edilizia protetta
+- vivienda protegida → protected residential unit | geförderte Wohneinheit | unité résidentielle protégée | unità residenziale protetta
 
 FORBIDDEN ACTIONS:
 - Adding explanatory text.
